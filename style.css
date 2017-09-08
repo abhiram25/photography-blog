@@ -1,0 +1,98 @@
+@import url("whitespace-reset.css");
+
+body {
+	font: normal 18px 'Roboto Condensed', sans-serif;
+	background: linear-gradient(#d1dbbd, #fcfff5);
+	background-repeat: no-repeat;
+	line-height: 1.2;
+}
+
+header {
+	width: 920px;
+	margin: auto;
+	padding: 20px 20px 0px 20px;
+}
+
+h1 {
+	float: left;
+	padding: 45px 30px 15px 115px;
+	font-weight: normal;
+	color: #193441;
+	font-size: 36px;
+	background: transparent url("images/logo.png") 0 0 no-repeat;
+}
+
+nav {
+	float: right;
+	padding: 75px 0 0 0px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	padding: 10px 40px 14px 40px;
+	text-decoration: none;
+	color: #91aa9d;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #fcfff5;
+}
+
+nav a.active {
+	color: #fcfff5;
+	background: #91aa9d;
+}
+
+main {
+	clear: both;
+	background: #ffffff;
+	margin: auto;
+	width: 960px;
+	box-shadow: 0px 5px 5px 0px rgba(181, 181, 181, 1); 
+}
+
+.container {
+	padding: 30px 30px 36px 30px;
+	width: 840px;
+}
+
+section {
+  padding: 0px 30px;
+}
+
+section h2 {
+	font-weight: normal;
+	font-size: 32px;
+	color: #3e606f;
+	padding-bottom: 25px;
+}
+
+p {
+	color: #3e606f;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+article {
+	float: right;
+	padding: 0px 0px 50px 40px;
+}
+
+section::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0px 15px 0px;
+}
+
+footer p {
+	font-size: 14px;
+}
