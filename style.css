@@ -6,15 +6,19 @@ body {
 	background-repeat: no-repeat;
 }
 
+header, main, footer {
+	width: 960px;
+	margin: auto;
+}
+
 header {
 	width: 920px;
-	margin: auto;
 	padding: 20px 20px 0px 20px;
 }
 
 h1 {
 	float: left;
-	padding: 45px 32px 15px 115px;
+	padding: 45px 30px 15px 115px;
 	font-weight: normal;
 	color: #193441;
 	font-size: 36px;
@@ -48,50 +52,45 @@ nav a.active {
 main {
 	clear: both;
 	background: #ffffff;
-	margin: auto;
-	width: 960px;
 	box-shadow: 0px 5px 5px 0px rgba(181, 181, 181, 1); 
 }
 
-.masthead {
+img[alt="masthead"] {
 	margin: 30px 30px 36px 30px;
 }
 
-section {
-  margin: 0px 30px;
-}
-
-section h2 {
+h2 {
 	font-weight: normal;
 	font-size: 32px;
-	color: #3e606f;
-	margin-bottom: 25px;
+	margin:  0px 30px 25px;
 }
 
 p {
-	color: #3e606f;
 	font-size: 18px;
-	margin-bottom: 20px;
 	line-height: 1.2;
+	margin:  0px 30px 20px;
 }
 
-section img {
+h2, p {
+	color: #3e606f;
+}
+
+img[alt="article"] {
 	float: right;
-	margin: 0px 0px 54px 40px;
+	margin: 0px 30px 54px 40px;
 }
 
-section::after {
+main::after {
 	content: "";
 	display: block;
 	clear: both;
 }
 
 footer {
-	width: 960px;
-	margin: 0 auto;
 	padding: 15px 0px 15px 0px;
 }
 
 footer p {
+	margin-left: 0px;
 	font-size: 14px;
 }
