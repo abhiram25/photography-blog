@@ -4,7 +4,6 @@ body {
 	font: normal 18px 'Roboto Condensed', sans-serif;
 	background: linear-gradient(#d1dbbd, #fcfff5);
 	background-repeat: no-repeat;
-	line-height: 1.2;
 }
 
 header {
@@ -15,7 +14,7 @@ header {
 
 h1 {
 	float: left;
-	padding: 45px 30px 15px 115px;
+	padding: 45px 32px 15px 115px;
 	font-weight: normal;
 	color: #193441;
 	font-size: 36px;
@@ -54,31 +53,31 @@ main {
 	box-shadow: 0px 5px 5px 0px rgba(181, 181, 181, 1); 
 }
 
-.container {
-	padding: 30px 30px 36px 30px;
-	width: 840px;
+.masthead {
+	margin: 30px 30px 36px 30px;
 }
 
 section {
-  padding: 0px 30px;
+  margin: 0px 30px;
 }
 
 section h2 {
 	font-weight: normal;
 	font-size: 32px;
 	color: #3e606f;
-	padding-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 p {
 	color: #3e606f;
 	font-size: 18px;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
+	line-height: 1.2;
 }
 
 section img {
 	float: right;
-	padding: 0px 0px 50px 40px;
+	margin: 0px 0px 54px 40px;
 }
 
 section::after {
